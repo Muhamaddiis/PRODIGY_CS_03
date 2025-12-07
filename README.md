@@ -37,18 +37,18 @@ Simple, clean, and responsive UI using minimal CSS.
 
 ## Project Structure
 ```bash
-PRODIGY_CS_03/
-│
-├── app.py
-└── templates/
-    └── index.html
-
+ PRODIGY_CS_03/
+ │
+ ├── app.py
+ └── templates/
+     └── index.html
+```
 🛠️ Installation & Setup
 1. Clone the repository (or download ZIP)
     ```bash
         git clone https://github.com/yourusername/PRODIGY_CS_03.git
         cd PRODIGY_CS_03
-
+    ```
 2. Create a virtual environment (optional but recommended)
     ```bash
         python3 -m venv venv
@@ -56,15 +56,17 @@ PRODIGY_CS_03/
         venv\Scripts\activate         # Windows
 
 3. Install dependencies
-```bash pip install flask
-
+```bash
+pip install flask
+```
 4. Run the application
+```
 python app.py
-
-5. Open your browser and visit:
+```
+6. Open your browser and visit:
 http://127.0.0.1:5000
 
-🧠 How It Works
+### How It Works
 
 The JavaScript function evaluates the password based on:
 
@@ -82,7 +84,7 @@ Each criterion adds to the score (0–5).
 The strength meter visually reflects this score, and feedback messages guide the user to improve the password.
 
 
-![Password Checker Screenshot](images/WeakPassword.png)
+![Password Checker Screenshot](images/StrongPassword.png)
 
 ### Future Enhancements
 
